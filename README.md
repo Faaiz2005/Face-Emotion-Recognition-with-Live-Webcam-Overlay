@@ -30,8 +30,8 @@ lab14-fer/
 ### 1. Clone / Download the Repo
 
 ```bash
-git clone https://github.com/your-username/lab14-fer.git
-cd lab14-fer
+git clone https://github.com/Faaiz2005/Face-Emotion-Recognition-with-Live-Webcam-Overlay.git
+cd Face-Emotion-Recognition-with-Live-Webcam-Overlay.git
 ```
 
 ### 2. Install Required Libraries
