@@ -91,7 +91,7 @@ python test_on_images.py --images sad.jpg
 ![Happy]('annotated_Happy.jpg')
 
 # Sad Test
-![Sad]('Sad_test.png')
+![Sad](['Sad_test.png'](https://github.com/Faaiz2005/Face-Emotion-Recognition-with-Live-Webcam-Overlay/blob/main/Sad_test.png))
 
 ### 🔁 Custom Model Path
 
