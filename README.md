@@ -12,7 +12,7 @@
 ```
 lab14-fer/
 ├── lab14_emotion_recognition.ipynb   # Full training pipeline (Google Colab)
-├── test_on_images.py                 # Inference script — images + webcam (VS Code)
+├── main.py                 # Inference script — images + webcam (VS Code)
 ├── fixed_model.keras                 # Best trained model (download from Colab)
 └── README.md                         # This file
 ```
@@ -65,12 +65,12 @@ After training, download `fixed_model.keras` from Colab and place it in the proj
 
 ## 🖥️ Part 2 — Run Inference (VS Code / Local)
 
-Make sure `fixed_model.keras` is in the same folder as `test_on_images.py`.
+Make sure `fixed_model.keras` is in the same folder as `main.py`.
 
 ### 🎥 Live Webcam Mode
 
 ```bash
-python test_on_images.py --webcam
+python main.py --webcam
 ```
 
 - Detects faces using Haar Cascade (`haarcascade_frontalface_default.xml`)
@@ -82,7 +82,7 @@ python test_on_images.py --webcam
 ### 🖼️ Single Image Mode
 
 ```bash
-python test_on_images.py --images sad.jpg
+python main.py --images sad.jpg
 ```
 
 ### OUTPUT
