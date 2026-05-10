@@ -88,7 +88,7 @@ python test_on_images.py --images sad.jpg
 ### OUTPUT
 
 # Happy Test
-![Happy]('annotated_Happy.jpg')
+![Happy](https://raw.githubusercontent.com/Faaiz2005/Face-Emotion-Recognition-with-Live-Webcam-Overlay/main/annotated_Happy.jpg)
 
 # Sad Test
 ![Sad](https://raw.githubusercontent.com/Faaiz2005/Face-Emotion-Recognition-with-Live-Webcam-Overlay/main/Sad_test.png)
